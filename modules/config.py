@@ -770,10 +770,11 @@ def add_ratio(x):
     g = math.gcd(a, b)
     return f'{a}×{b} <span style="color: grey;"> \U00002223 {a // g}:{b // g}</span>'
 
+available_aspect_ratios.append('1080*1349')
+available_aspect_ratios.append('1728*1728')
 
 default_aspect_ratio = add_ratio(default_aspect_ratio)
 available_aspect_ratios_labels = [add_ratio(x) for x in available_aspect_ratios]
-
 
 # Only write config in the first launch.
 if not os.path.exists(config_path):

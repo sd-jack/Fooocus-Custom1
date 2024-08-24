@@ -17,7 +17,7 @@
     "path_safety_checker": "/content/Fooocus-Custom1/models/safety_checker",
     "path_sam": "/content/Fooocus-Custom1/models/sam",
     "path_outputs": "/content/Fooocus-Custom1/outputs",
-       "available_aspect_ratios": [
+    "available_aspect_ratios": [
         "704*1408",
         "704*1344",
         "768*1344",
@@ -46,5 +46,5 @@
         "1664*576",
         "1728*576",
         "1728*1728"
-    ],
+    ]
 }
